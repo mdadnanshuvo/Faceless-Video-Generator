@@ -58,7 +58,7 @@ FACELESS_VIDEO_GENERATOR/
 │   ├── generate_voice.py          # TTS + subtitle generation (Kokoro ONNX)
 │   └── video_processor.py         # Video assembly & encoding (FFmpeg)
 │
-├── raw_videos/                    # 📂 Drop your B-roll footage here
+├── raw_videos/                    # 📂 Drop your B-roll footage here or API key to select random videos from Pixabay or Unsplash
 │   └── (your .mp4 / .mov clips)
 │
 ├── work/                          # 🔧 Auto-created temp directory
