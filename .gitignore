@@ -1,0 +1,82 @@
+# ─────────────────────────────────────────
+#  Faceless Video Generator — .gitignore
+# ─────────────────────────────────────────
+
+
+# ── Secrets & Environment ──────────────────
+.env
+.env.*
+*.env
+
+
+# ── Work Directory (temp/intermediate files)
+work/
+
+
+# ── Raw & Generated Media ──────────────────
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.aac
+*.srt
+*.vtt
+
+
+# ── Kokoro TTS Model Files (large binaries) ─
+*.onnx
+*.bin
+
+
+# ── Raw Videos Folder Contents ─────────────
+raw_videos/*
+!raw_videos/.gitkeep
+
+
+# ── Python ─────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+
+# ── Virtual Environment ────────────────────
+env/
+venv/
+.venv/
+ENV/
+
+
+# ── Distribution / Build ───────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+
+# ── Testing & Coverage ─────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+
+# ── IDE & Editor ───────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+
+# ── Logs ───────────────────────────────────
+*.log
+logs/
