@@ -79,7 +79,7 @@ FACELESS_VIDEO_GENERATOR/
 | Path | Role |
 |---|---|
 | `video_engine/` | All business logic — one module per pipeline stage |
-| `raw_videos/` | Your personal B-roll pool — add any number of clips |
+| `raw_videos/` | Your personal B-roll pool — add any number of clips or add API key for video from Paxabay, Unsplash ... |
 | `work/` | Temporary scratch space for intermediate `.wav`, `.srt`, `.mp4` files |
 | `kokoro-v1.0.onnx` | Neural TTS model — runs fully offline on CPU/GPU |
 | `voices-v1.0.bin` | Pre-trained voice embeddings for the Kokoro engine |
