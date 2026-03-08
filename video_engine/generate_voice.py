@@ -11,12 +11,12 @@ WORKDIR = "work"
 os.makedirs(WORKDIR, exist_ok=True)
 
 VOICE = "am_adam"
-SPEED = 0.9
+SPEED = 0.8
 
 KOKORO_MODEL = "kokoro-v1.0.onnx"
 KOKORO_VOICES = "voices-v1.0.bin"
 
-PAUSE_BETWEEN_SENTENCES = 0.35
+PAUSE_BETWEEN_SENTENCES = 0.40
 
 print("🔄 Loading Kokoro TTS model...")
 _kokoro = Kokoro(KOKORO_MODEL, KOKORO_VOICES)
